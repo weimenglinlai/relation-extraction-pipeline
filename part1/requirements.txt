@@ -1,0 +1,19 @@
+# 项目一：人物信息抓取 —— 依赖
+# 安装：pip install -r requirements.txt
+# Tkinter 为 Python 标准库自带，无需安装。
+
+# 参考文档点名要求（>=1.26.20）
+urllib3>=1.26.20
+
+# HTTP 请求（requests 引擎）
+requests>=2.31.0
+
+# HTML 解析（解析器同时用到 BeautifulSoup 与 lxml）
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# 浏览器自动化（selenium 引擎，穿透百度安全验证）
+selenium>=4.20.0
+
+# 可视化出图
+matplotlib>=3.8.0

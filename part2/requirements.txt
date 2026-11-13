@@ -1,0 +1,19 @@
+# 项目二：知识图谱构建 —— 依赖
+# 安装：pip install -r requirements.txt
+
+# 深度学习（项目一/AI前沿技术环境里已有 CUDA 版 torch，可直接复用）
+torch>=2.0
+
+# BERT 基座与分词
+transformers>=4.30
+
+# 图数据库驱动（本地图存储模式下不需要，配 Neo4j 时用）
+neo4j>=5.0
+
+# 图谱可视化
+pyvis>=0.3.2
+networkx>=3.0
+
+# 统计图
+matplotlib>=3.7
+numpy>=1.24
